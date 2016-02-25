@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server/server.js",
-    "deploy": "git push ssh://root@45.55.23.71/var/repo/site.git"
+    "deploy": "git push ssh://root@45.55.23.71/var/repo/site.git --force"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ProfoundMongoose/ProfoundMongoose",
   "dependencies": {
     "bcrypt": "^0.8.5",
+    "bcrypt-node": "^0.1.0",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
